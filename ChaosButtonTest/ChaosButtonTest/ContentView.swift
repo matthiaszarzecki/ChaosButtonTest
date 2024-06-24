@@ -40,9 +40,10 @@ struct ContentView: View {
         Button(
           action: {
             tapCount = 0
+            tapCount2 = 0
           },
           label: {
-            Text("Reset Count")
+            Text("Reset Counts")
               .frame(width: 200, height: 64)
               .background(Color.black)
               .cornerRadius(32)
